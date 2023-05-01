@@ -1,0 +1,8 @@
+
+build:
+    @mkdir -p ./build
+    go build -o ./build/program ./main.go
+    @chmod +x ./build/program
+
+run: build
+    ./build/program
