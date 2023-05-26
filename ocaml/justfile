@@ -1,0 +1,5 @@
+
+alias run := start
+
+start:
+    @ocaml ./main.ml
